@@ -7,9 +7,12 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
+#Coloquei micro_front, porém é micro_core 'erro xD'
 dependencies:
   micro_core:
-    path: ../micro_core
+    git:
+      url: https://github.com/CadisRaziel/micro_front.git
+      ref: v1.0.0
 
   flutter:
     sdk: flutter
